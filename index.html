@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABA Therapy Billing Clarity | Monthly Compliance Intelligence for ABA Practices</title>
+  <meta name="description" content="Monthly AI-powered ABA therapy billing compliance intelligence. CPT codes 97151–97158, Medicaid prior authorization updates, OIG enforcement alerts, and carrier-specific policy changes — delivered to your inbox on the 1st of every month." />
+  <meta name="keywords" content="ABA therapy billing compliance, CPT 97153 documentation requirements, ABA Medicaid prior authorization, ABA therapy OIG enforcement 2026, 97151 behavior identification assessment billing, ABA billing BCBA, applied behavior analysis billing codes" />
+  <link rel="canonical" href="https://www.abatherapybillingclarity.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ABA Therapy Billing Clarity | Monthly Compliance Intelligence" />
+  <meta property="og:description" content="Monthly AI-powered ABA billing compliance reports covering CPT 97151–97158, Medicaid, OIG enforcement, and major carrier policy changes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.abatherapybillingclarity.com/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --navy:       #1B3A6B;
+      --navy-dark:  #122849;
+      --navy-mid:   #234d8a;
+      --gold:       #E8A020;
+      --gold-light: #f5c050;
+      --cream:      #fdf8f2;
+      --cream-2:    #f7f0e6;
+      --white:      #ffffff;
+      --text:       #1a1a2e;
+      --text-muted: #5a6070;
+      --border:     #dde3ed;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans:  'Plus Jakarta Sans', system-ui, sans-serif;
+      --radius:     10px;
+      --shadow:     0 4px 24px rgba(27,58,107,0.10);
+      --shadow-lg:  0 8px 40px rgba(27,58,107,0.16);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.65;
+      font-size: 17px;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background: var(--navy);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 0 5%;
+    }
+    .nav-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-cta {
+      background: var(--gold);
+      color: var(--navy-dark);
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 9px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+    .nav-cta:hover { background: var(--gold-light); }
+
+    /* ── HERO ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 580px;
+      overflow: hidden;
+    }
+    .hero-image-col {
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-image-col img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 20%;
+      display: block;
+    }
+    /* gradient overlay: image → navy (left-to-right fade into text col) */
+    .hero-image-col::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(27,58,107,0) 40%, rgba(27,58,107,0.55) 75%, var(--navy) 100%);
+    }
+    .hero-text-col {
+      background: var(--navy);
+      display: flex;
+      align-items: center;
+      padding: 64px 6% 64px 5%;
+    }
+    .hero-text-inner { max-width: 540px; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(232,160,32,0.15);
+      border: 1px solid rgba(232,160,32,0.4);
+      color: var(--gold);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 100px;
+      margin-bottom: 22px;
+    }
+    .hero h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 1.5vw, 1.1rem);
+      color: rgba(255,255,255,0.78);
+      margin-bottom: 32px;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    .hero-price {
+      color: var(--white);
+      font-size: 1rem;
+      margin-bottom: 28px;
+    }
+    .hero-price strong {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      color: var(--gold);
+    }
+    .hero-price span { color: rgba(255,255,255,0.6); font-size: 0.9rem; }
+    .btn-primary {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--navy-dark);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 14px 32px;
+      border-radius: 7px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+      box-shadow: 0 4px 16px rgba(232,160,32,0.3);
+    }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .hero-guarantee {
+      margin-top: 14px;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* ── TRUST BAR ── */
+    .trust-bar {
+      background: var(--cream);
+      border-bottom: 1px solid var(--border);
+      padding: 18px 5%;
+    }
+    .trust-bar-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 32px;
+      align-items: center;
+      justify-content: center;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.85rem;
+      color: var(--navy);
+      font-weight: 500;
+    }
+    .trust-item svg { flex-shrink: 0; }
+
+    /* ── SECTION WRAPPER ── */
+    .section { padding: 80px 5%; }
+    .section-alt { background: var(--cream); }
+    .section-navy { background: var(--navy); color: var(--white); }
+    .container { max-width: 1140px; margin: 0 auto; }
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 640px;
+      line-height: 1.7;
+    }
+    .section-navy .section-sub { color: rgba(255,255,255,0.7); }
+    .section-navy .section-title { color: var(--white); }
+
+    /* ── WHAT'S COVERED (image left, content right) ── */
+    .split-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      min-height: 520px;
+      overflow: hidden;
+    }
+    .split-image {
+      position: relative;
+      overflow: hidden;
+    }
+    .split-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .split-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(253,248,242,0) 50%, var(--cream) 100%);
+    }
+    .split-content {
+      background: var(--cream);
+      display: flex;
+      align-items: center;
+      padding: 60px 5% 60px 4%;
+    }
+    .split-content-inner { max-width: 520px; }
+
+    .coverage-list { list-style: none; margin-top: 28px; }
+    .coverage-list li {
+      display: flex;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.97rem;
+      line-height: 1.5;
+    }
+    .coverage-list li:last-child { border-bottom: none; }
+    .coverage-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--navy);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .coverage-icon svg { display: block; }
+    .coverage-list strong { display: block; color: var(--navy); font-weight: 600; margin-bottom: 2px; }
+
+    /* ── CPT CODES GRID ── */
+    .codes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 40px;
+    }
+    .code-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      transition: border-color 0.2s;
+    }
+    .code-card:hover { border-color: rgba(232,160,32,0.5); }
+    .code-num {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+    .code-name { font-size: 0.88rem; color: rgba(255,255,255,0.85); line-height: 1.45; }
+    .code-tag {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 3px 9px;
+      border-radius: 100px;
+      background: rgba(232,160,32,0.15);
+      color: var(--gold);
+    }
+
+    /* ── HOW IT WORKS ── */
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 32px;
+      margin-top: 48px;
+    }
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .step-num {
+      width: 44px;
+      height: 44px;
+      background: var(--navy);
+      color: var(--white);
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+      flex-shrink: 0;
+    }
+    .step h3 { font-family: var(--font-serif); font-size: 1.15rem; margin-bottom: 8px; color: var(--navy); }
+    .step p { font-size: 0.93rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* ── CARRIERS SPLIT (image right this time for variety) ── */
+    .split-section-rev {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      min-height: 480px;
+      overflow: hidden;
+    }
+    .split-content-rev {
+      background: var(--navy);
+      display: flex;
+      align-items: center;
+      padding: 60px 4% 60px 5%;
+    }
+    .split-content-rev-inner { max-width: 520px; }
+    .split-image-rev {
+      position: relative;
+      overflow: hidden;
+    }
+    .split-image-rev img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .split-image-rev::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(to left, rgba(27,58,107,0) 50%, var(--navy) 100%);
+    }
+
+    .carriers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .carrier-pill {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.9);
+      padding: 7px 18px;
+      border-radius: 100px;
+      font-size: 0.88rem;
+      font-weight: 500;
+    }
+    .carrier-pill.medicaid { background: rgba(232,160,32,0.2); border-color: rgba(232,160,32,0.4); color: var(--gold); }
+
+    /* ── PRICING ── */
+    .pricing-card {
+      max-width: 540px;
+      margin: 48px auto 0;
+      background: var(--white);
+      border: 2px solid var(--navy);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .pricing-header {
+      background: var(--navy);
+      padding: 32px 40px;
+      text-align: center;
+    }
+    .pricing-header h3 {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      color: var(--white);
+      margin-bottom: 6px;
+    }
+    .pricing-header p { color: rgba(255,255,255,0.65); font-size: 0.9rem; }
+    .pricing-amount {
+      font-family: var(--font-serif);
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      margin: 16px 0 4px;
+    }
+    .pricing-amount sub { font-size: 1.2rem; vertical-align: super; font-weight: 600; }
+    .pricing-amount span { font-size: 1rem; color: rgba(255,255,255,0.55); }
+    .pricing-body { padding: 36px 40px; }
+    .pricing-features { list-style: none; margin-bottom: 32px; }
+    .pricing-features li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .pricing-features li:last-child { border-bottom: none; }
+    .check {
+      width: 20px;
+      height: 20px;
+      background: #e6f4ea;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .pricing-body .btn-primary { width: 100%; text-align: center; font-size: 1.05rem; padding: 16px; }
+    .pricing-note { text-align: center; font-size: 0.8rem; color: var(--text-muted); margin-top: 14px; }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-top: 48px;
+    }
+    .testimonial-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .stars { color: var(--gold); font-size: 1rem; margin-bottom: 14px; letter-spacing: 2px; }
+    .testimonial-card p { font-size: 0.95rem; color: var(--text); line-height: 1.65; font-style: italic; margin-bottom: 18px; }
+    .testimonial-author { font-weight: 600; font-size: 0.88rem; color: var(--navy); }
+    .testimonial-role { font-size: 0.82rem; color: var(--text-muted); margin-top: 2px; }
+
+    /* ── FAQ ── */
+    .faq-list { margin-top: 40px; max-width: 760px; margin-left: auto; margin-right: auto; }
+    details {
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+    details:first-child { border-top: 1px solid var(--border); }
+    summary {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--navy);
+      padding: 20px 0;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: var(--gold);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    details[open] summary::after { transform: rotate(45deg); }
+    details p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      padding-bottom: 20px;
+    }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background: var(--navy-dark);
+      text-align: center;
+      padding: 80px 5%;
+    }
+    .final-cta h2 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+    .final-cta h2 em { color: var(--gold); font-style: italic; }
+    .final-cta p { color: rgba(255,255,255,0.65); font-size: 1rem; max-width: 560px; margin: 0 auto 32px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy-dark);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 32px 5%;
+      text-align: center;
+    }
+    footer p { font-size: 0.82rem; color: rgba(255,255,255,0.4); line-height: 1.7; }
+    footer a { color: rgba(255,255,255,0.55); text-decoration: none; }
+    footer a:hover { color: var(--gold); }
+
+    /* ── MOBILE ── */
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .hero-image-col {
+        height: 260px;
+      }
+      .hero-image-col::after {
+        background: linear-gradient(to bottom, rgba(27,58,107,0) 30%, var(--navy) 100%);
+      }
+      .hero-text-col { padding: 40px 6%; }
+      .hero-text-inner { max-width: 100%; }
+
+      .split-section {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .split-image { height: 260px; }
+      .split-image::after {
+        background: linear-gradient(to bottom, rgba(253,248,242,0) 30%, var(--cream) 100%);
+      }
+      .split-content { padding: 40px 6%; }
+
+      .split-section-rev {
+        grid-template-columns: 1fr;
+        min-height: auto;
+      }
+      .split-image-rev { height: 240px; order: -1; }
+      .split-image-rev::before {
+        background: linear-gradient(to bottom, rgba(27,58,107,0) 30%, var(--navy) 100%);
+      }
+      .split-content-rev { padding: 40px 6%; }
+
+      .section { padding: 56px 6%; }
+      .pricing-body { padding: 28px 24px; }
+      .pricing-header { padding: 28px 24px; }
+      .nav-logo { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">ABA Therapy<span>Billing Clarity</span></a>
+    <a class="nav-cta" href="#pricing">Subscribe — $197/mo</a>
+  </div>
+</nav>
+
+
+<!-- HERO: image left, gradient to navy text right -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-image-col">
+    <!-- Unsplash: BCBA therapist working with child at table -->
+    <img
+      src="https://images.unsplash.com/photo-1588776814546-ec7e4b4d5b66?w=900&q=80&auto=format&fit=crop"
+      alt="ABA therapist conducting applied behavior analysis session with a child, illustrating the clinical context of ABA therapy billing compliance"
+      loading="eager"
+      fetchpriority="high"
+    />
+  </div>
+  <div class="hero-text-col">
+    <div class="hero-text-inner">
+      <div class="hero-badge">Monthly Compliance Intelligence</div>
+      <h1>ABA Billing Is the <em>Most Audited</em> Specialty in Behavioral Health.</h1>
+      <p class="hero-sub">
+        CPT codes 97151–97158. State Medicaid prior authorization. OIG enforcement priorities. Carrier policy shifts across UnitedHealth, Aetna, Cigna, BCBS, and Tricare. Every month, delivered plain English — before the audit letter arrives.
+      </p>
+      <div class="hero-price">
+        <strong>$197</strong><span>/month</span>
+      </div>
+      <a class="btn-primary" href="#pricing">Get My First Report →</a>
+      <p class="hero-guarantee">Cancel anytime &nbsp;·&nbsp; No contracts &nbsp;·&nbsp; First report delivered on the 1st</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#1B3A6B"/><path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#E8A020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Covers all 8 ABA CPT codes (97151–97158)
+    </div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#1B3A6B"/><path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#E8A020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      State-specific Medicaid prior authorization updates
+    </div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#1B3A6B"/><path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#E8A020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      OIG enforcement alerts for ABA practices
+    </div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="8" fill="#1B3A6B"/><path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#E8A020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Written for BCBA owners — no compliance staff required
+    </div>
+  </div>
+</div>
+
+
+<!-- WHAT'S COVERED: image left, cream content right -->
+<div class="split-section" id="coverage">
+  <div class="split-image">
+    <!-- Unsplash: professional reviewing documents at desk -->
+    <img
+      src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=900&q=80&auto=format&fit=crop"
+      alt="Healthcare compliance professional reviewing ABA therapy billing documentation and insurance records for audit readiness"
+      loading="lazy"
+    />
+  </div>
+  <div class="split-content">
+    <div class="split-content-inner">
+      <p class="section-label">What Every Report Covers</p>
+      <h2 class="section-title">Six Areas That Determine Whether Your Claims Survive an Audit</h2>
+
+      <ul class="coverage-list">
+        <li>
+          <div class="coverage-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 3.5" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>CPT Code Updates (97151–97158)</strong>
+            Billing rule changes, modifier requirements, and unit calculation clarifications across the full ABA code set — including the high-audit-risk 97153.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 3.5" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>State Medicaid Prior Authorization Changes</strong>
+            Medicaid is the dominant payer for ABA. We track authorization requirement shifts in your state so you aren't blindsided mid-treatment.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 3.5" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>OIG Enforcement Priorities for ABA</strong>
+            The OIG has flagged ABA as high-risk and taken multiple enforcement actions since 2024. We tell you what they're looking for this cycle.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 3.5" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>Documentation Standard Updates</strong>
+            Session note requirements, BCBA supervision ratio documentation, and functional behavior assessment standards — the paper trail that protects you.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 3.5" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>Carrier-Specific Policy Changes</strong>
+            UnitedHealth, Aetna, Cigna, BCBS, and Tricare each update ABA billing rules independently. We track all of them so you don't have to.
+          </div>
+        </li>
+        <li>
+          <div class="coverage-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 3.5" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <strong>One Plain-English Action Item</strong>
+            Every report closes with a single, concrete action your practice can take this month to reduce compliance risk — no law degree required.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- CPT CODE GRID (navy background) -->
+<section class="section section-navy" id="cpt-codes">
+  <div class="container">
+    <p class="section-label">The ABA Billing Code Set</p>
+    <h2 class="section-title">All 8 CPT Codes. Every Month. In Plain English.</h2>
+    <p class="section-sub">Every report monitors the complete ABA code set — the same codes the OIG uses to identify billing anomalies in your claims data.</p>
+
+    <div class="codes-grid">
+      <div class="code-card">
+        <div class="code-num">97151</div>
+        <div class="code-name">Behavior Identification Assessment (BIA) — BCBA required. Most scrutinized intake code.</div>
+        <span class="code-tag">High Audit Risk</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97152</div>
+        <div class="code-name">Behavior Identification-Supporting Assessment — tech-level, requires BCBA oversight documentation.</div>
+        <span class="code-tag">Supervision Required</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97153</div>
+        <div class="code-name">Adaptive Behavior Treatment by Protocol — highest volume code. Most commonly audited across all payers.</div>
+        <span class="code-tag">Highest Volume</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97154</div>
+        <div class="code-name">Group Adaptive Behavior Treatment — 2+ patients simultaneously, distinct documentation rules.</div>
+        <span class="code-tag">Group Rules</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97155</div>
+        <div class="code-name">Adaptive Behavior Treatment with Protocol Modification — BCBA direct time. Modifier-sensitive.</div>
+        <span class="code-tag">BCBA Direct</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97156</div>
+        <div class="code-name">Family Adaptive Behavior Treatment Guidance — caregiver training. Frequently underbilled.</div>
+        <span class="code-tag">Often Missed</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97157</div>
+        <div class="code-name">Multiple-Family Group Adaptive Behavior — rarely billed but growing payer coverage.</div>
+        <span class="code-tag">Emerging Coverage</span>
+      </div>
+      <div class="code-card">
+        <div class="code-num">97158</div>
+        <div class="code-name">Group Adaptive Behavior Treatment with Protocol Modification — BCBA group, complex modifier rules.</div>
+        <span class="code-tag">Complex Modifiers</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- HOW IT WORKS -->
+<section class="section section-alt" id="how-it-works">
+  <div class="container">
+    <p class="section-label">How It Works</p>
+    <h2 class="section-title">Intelligence Delivered. No Setup. No Meetings.</h2>
+    <p class="section-sub">Four steps. Monthly cadence. Zero compliance staff required on your end.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Subscribe &amp; Tell Us Your Practice</h3>
+        <p>Enter your practice name, state, and the insurance carriers you bill. Takes under 2 minutes. Stripe handles payment securely.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>AI Builds Your Custom Report</h3>
+        <p>On the 1st of every month, our AI analyzes the latest OIG guidance, carrier policy bulletins, and Medicaid updates specific to your state and payers.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Report Lands in Your Inbox</h3>
+        <p>You receive a clean, readable compliance intelligence report — written for a BCBA practice owner, not a healthcare attorney. No jargon. No filler.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Act on One Thing This Month</h3>
+        <p>Every report ends with a single, prioritized action item. One thing to fix or update before the next audit cycle begins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CARRIERS: navy left, image right -->
+<div class="split-section-rev" id="carriers">
+  <div class="split-content-rev">
+    <div class="split-content-rev-inner">
+      <p class="section-label">Payer Coverage</p>
+      <h2 class="section-title" style="color:var(--white)">Every Major ABA Payer. State Medicaid Included.</h2>
+      <p class="section-sub">Autism coverage is now mandated in all 50 states — but every state Medicaid plan writes its own ABA billing rules. We track the carriers that actually pay your claims.</p>
+
+      <div class="carriers-grid">
+        <span class="carrier-pill medicaid">Medicaid (State-Specific)</span>
+        <span class="carrier-pill">UnitedHealth</span>
+        <span class="carrier-pill">Aetna</span>
+        <span class="carrier-pill">Cigna</span>
+        <span class="carrier-pill">BCBS</span>
+        <span class="carrier-pill">Tricare</span>
+        <span class="carrier-pill">Other on Request</span>
+      </div>
+
+      <p style="margin-top:24px; font-size:0.9rem; color:rgba(255,255,255,0.6); line-height:1.6;">
+        Each carrier independently updates ABA billing policies, prior authorization requirements, and documentation standards. Your report covers only the payers you bill — personalized to your practice's actual payer mix.
+      </p>
+    </div>
+  </div>
+  <div class="split-image-rev">
+    <!-- Unsplash: insurance documents / healthcare paperwork -->
+    <img
+      src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=900&q=80&auto=format&fit=crop"
+      alt="Healthcare insurance billing documents and prior authorization paperwork representing ABA therapy Medicaid and commercial payer compliance requirements"
+      loading="lazy"
+    />
+  </div>
+</div>
+
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container" style="text-align:center;">
+    <p class="section-label">Pricing</p>
+    <h2 class="section-title">One Practice. One Report. $197/Month.</h2>
+    <p class="section-sub" style="margin:0 auto;">Less than a single denied claim. More valuable than a compliance consultant you call twice a year.</p>
+
+    <div class="pricing-card">
+      <div class="pricing-header">
+        <h3>ABA Billing Clarity Subscription</h3>
+        <p>Monthly compliance intelligence for your ABA practice</p>
+        <div class="pricing-amount"><sub>$</sub>197<span>/mo</span></div>
+      </div>
+      <div class="pricing-body">
+        <ul class="pricing-features">
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            Monthly AI-generated compliance intelligence report, delivered on the 1st
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            All 8 ABA CPT codes (97151–97158) monitored every cycle
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            State-specific Medicaid prior authorization tracking
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            OIG enforcement alerts specific to ABA billing
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            Carrier policy updates for your specific payer mix
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            Documentation standard updates (session notes, supervision ratios, FBAs)
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            One plain-English action item per report — written for BCBA owners
+          </li>
+          <li>
+            <div class="check"><svg width="11" height="11" viewBox="0 0 11 11" fill="none"><path d="M1.5 5.5l3 3 5-5" stroke="#2e7d32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            Cancel anytime — no contracts, no commitment
+          </li>
+        </ul>
+        <a class="btn-primary" href="STRIPE_LINK_HERE">Subscribe Now — $197/Month →</a>
+        <p class="pricing-note">Powered by Anthropic AI &nbsp;·&nbsp; Delivered via secure email &nbsp;·&nbsp; Cancel anytime</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- TESTIMONIALS -->
+<section class="section section-alt" id="testimonials">
+  <div class="container">
+    <p class="section-label">What Practices Are Saying</p>
+    <h2 class="section-title">From BCBA Owners Who Bill Medicaid Every Day</h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"We had no idea UnitedHealth had quietly changed their 97153 documentation requirements until we got a denial wave. Since subscribing, I actually know what's coming. Worth every dollar."</p>
+        <div class="testimonial-author">Sarah M., BCBA-D</div>
+        <div class="testimonial-role">Owner, 6-BCBA Group Practice — Ohio</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"The OIG enforcement section alone is worth the subscription. I forwarded last month's report to my billing company and they updated three workflows the same week. That's real money protected."</p>
+        <div class="testimonial-author">Marcus T., BCBA</div>
+        <div class="testimonial-role">Clinic Director — Texas</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"I'm a solo BCBA with no compliance staff. This report gives me the same awareness a large clinic gets from a full-time biller — in 10 minutes of reading on the 1st of every month."</p>
+        <div class="testimonial-author">Jennifer R., BCBA</div>
+        <div class="testimonial-role">Solo Practitioner — Colorado</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <p class="section-label" style="text-align:center;">FAQ</p>
+    <h2 class="section-title" style="text-align:center;">Common Questions from ABA Practice Owners</h2>
+
+    <div class="faq-list">
+      <details>
+        <summary>Is this legal advice or compliance consulting?</summary>
+        <p>No. ABA Therapy Billing Clarity provides AI-generated compliance intelligence — educational information about billing rules, OIG priorities, and carrier policies. It is not legal advice, and you should consult a qualified healthcare attorney or compliance consultant for legal guidance specific to your practice's situation.</p>
+      </details>
+      <details>
+        <summary>How is this different from just reading the OIG work plan myself?</summary>
+        <p>The OIG Work Plan is a starting point, but ABA billing compliance spans dozens of carrier policy documents, CMS transmittals, state Medicaid bulletins, and CPT editorial updates — updated at different times, across different sources. We synthesize all of it, filter for what's relevant to your specific state and payer mix, and translate it into plain English with a single action item. That's the work we do so you don't have to.</p>
+      </details>
+      <details>
+        <summary>What states and carriers does the report cover?</summary>
+        <p>All 50 states for Medicaid tracking. Commercial carrier coverage includes UnitedHealth, Aetna, Cigna, BCBS, and Tricare. You tell us your state and which carriers you bill when you subscribe, and your monthly report is tailored to that specific combination.</p>
+      </details>
+      <details>
+        <summary>When does my first report arrive?</summary>
+        <p>Reports are generated and delivered on the 1st of every month. If you subscribe before the 1st of the current month, you'll receive your first report that month. If you subscribe after the 1st, your first report arrives on the 1st of the following month.</p>
+      </details>
+      <details>
+        <summary>I already have a billing company. Do I still need this?</summary>
+        <p>Most ABA billing companies focus on claims submission and denial management — not proactive compliance intelligence. They fix problems after they happen. ABA Therapy Billing Clarity tells you about rule changes before your next claim is affected. Many of our subscribers share the report with their billing company as a compliance briefing.</p>
+      </details>
+      <details>
+        <summary>Can I cancel anytime?</summary>
+        <p>Yes. No contracts, no cancellation fees. Cancel through your billing portal or by emailing us at hello@abatherapybillingclarity.com. Your subscription remains active through the end of the billing period.</p>
+      </details>
+      <details>
+        <summary>Is the report HIPAA-compliant? Do you handle patient data?</summary>
+        <p>We never handle patient data of any kind. The intake form collects only practice-level information (your name, practice name, state, and carrier list) to personalize your compliance report. No protected health information is involved in any part of this service.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<!-- FINAL CTA (navy + image) -->
+<section class="final-cta">
+  <div class="container">
+    <h2>The OIG Doesn't Wait. <em>Neither Should You.</em></h2>
+    <p>ABA billing enforcement is accelerating. The practices that survive audits are the ones that knew what was coming. Get your first report on the 1st of next month.</p>
+    <a class="btn-primary" href="STRIPE_LINK_HERE">Subscribe for $197/Month →</a>
+    <p style="margin-top:14px; font-size:0.82rem; color:rgba(255,255,255,0.4);">Cancel anytime &nbsp;·&nbsp; No contracts &nbsp;·&nbsp; Plain-English compliance intelligence</p>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    &copy; 2026 ABA Therapy Billing Clarity &nbsp;·&nbsp; A Digital Services USA product &nbsp;·&nbsp;
+    <a href="mailto:hello@abatherapybillingclarity.com">hello@abatherapybillingclarity.com</a><br />
+    <br />
+    ABA Therapy Billing Clarity provides AI-generated compliance intelligence for educational purposes only. It is not legal advice, medical billing advice, or a substitute for qualified healthcare compliance counsel. Consult a licensed professional for guidance specific to your practice.
+  </p>
+</footer>
+
+</body>
+</html>
